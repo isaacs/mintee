@@ -1,6 +1,6 @@
 {
   "name": "mintee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a tiny module for piping an input to multiple output streams",
   "main": "index.js",
   "devDependencies": {
