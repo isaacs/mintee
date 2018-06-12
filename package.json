@@ -13,5 +13,8 @@
     "postversion": "npm publish",
     "postpublish": "git push origin --all; git push origin --tags"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ]
 }
