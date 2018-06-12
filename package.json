@@ -1,0 +1,14 @@
+{
+  "name": "minitee",
+  "version": "0.0.0",
+  "description": "a tiny module for piping an input to multiple output streams",
+  "main": "index.js",
+  "devDependencies": {
+    "minipass": "^2.3.3",
+    "tap": "^12.0.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js --100"
+  },
+  "license": "ISC"
+}
