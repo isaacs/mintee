@@ -1,5 +1,5 @@
 {
-  "name": "minitee",
+  "name": "mintee",
   "version": "0.0.0",
   "description": "a tiny module for piping an input to multiple output streams",
   "main": "index.js",
