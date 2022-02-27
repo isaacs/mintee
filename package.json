@@ -1,20 +1,29 @@
 {
   "name": "mintee",
   "version": "1.0.1",
+  "files": [
+    "index.js"
+  ],
   "description": "a tiny module for piping an input to multiple output streams",
   "main": "index.js",
   "devDependencies": {
-    "minipass": "^2.3.3",
-    "tap": "^12.0.1"
+    "minipass": "^3.1.6",
+    "tap": "^15.1.6"
   },
   "scripts": {
-    "test": "tap test/*.js --100",
+    "test": "tap",
+    "snap": "tap",
     "preversion": "npm test",
     "postversion": "npm publish",
-    "postpublish": "git push origin --all; git push origin --tags"
+    "prepublishOnly": "git push origin --follow-tags"
   },
   "license": "ISC",
-  "files": [
-    "index.js"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/mintee.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (https://izs.me)",
+  "tap": {
+    "check-coverage": true
+  }
 }
